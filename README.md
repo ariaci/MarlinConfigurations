@@ -13,3 +13,5 @@ https://all3dp.com/2/ender-3-with-marlin-how-to-install-marlin-firmware-on-your-
 * Upload firmware file to your printer
 # Language
 Selected language is for this configuration is English (en). To change used language to for example German (de), modify LCD_LANGUAGE in configuration file Configuration.h to your needs.
+# Reduce Marlin binary size
+If you have problems with Marlin binary size or if you want to disable SLIM_LCD_MENUS or enable ARC_SUPPORT for manual mesh bed levelling branches, use my Sanguino-fork at https://github.com/ariaci/Sanguino to enable some compiler optimizations to reduce binary size.
